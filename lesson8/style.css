@@ -1,0 +1,22 @@
+.block1 {
+    background: #0b919b;
+    color: white;
+}
+.firstsite {
+    color: rgb(43, 220, 226);
+}
+.block {
+    width: 100px;
+    height: 100px;
+    background: rgb(149, 185, 19);
+}
+
+.elem {
+    background: rgb(105, 80, 128);
+    width: 300px;
+}
+
+.elems {
+    background: rgb(24, 1, 20);
+    color: #fff;
+}
