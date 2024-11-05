@@ -1,0 +1,27 @@
+header {
+    height: 60px;
+    background: rgb(221, 165, 61);
+}
+
+img {
+    width: 400px;
+}
+
+footer {
+    height: 300px;
+    background: goldenrod;
+}
+
+blockquote {
+    background: rgb(224, 167, 167);
+}
+.section1 {
+    background: pink;
+}
+.section2 {
+    background: paleturquoise;
+}
+
+.list {
+    background: olivedrab;
+}
