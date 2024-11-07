@@ -15,13 +15,15 @@ footer {
 blockquote {
     background: rgb(224, 167, 167);
 }
-.section1 {
-    background: pink;
+a {
+    color: black;
 }
-.section2 {
-    background: paleturquoise;
-}
+
+
 
 .list {
     background: olivedrab;
+}
+a {
+    color:black;
 }
