@@ -10,8 +10,9 @@ img {
 footer {
     color: #fff;
     height: 300px;
-    background: goldenrod;
+    background: rgb(212, 161, 31);
 }
+
 
 blockquote {
     background: rgb(224, 167, 167);
@@ -25,7 +26,7 @@ a {
 .list {
     background: olivedrab;
 }
+
 footer a {
     color: #fff;
 }
-
