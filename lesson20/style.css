@@ -8,6 +8,7 @@ img {
 }
 
 footer {
+    color: #fff;
     height: 300px;
     background: goldenrod;
 }
@@ -23,5 +24,8 @@ a {
 
 .list {
     background: olivedrab;
+}
+footer a {
+    color: #fff;
 }
 
