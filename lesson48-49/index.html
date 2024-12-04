@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Формы 48</title>
+        <!-- <link rel="stylesheet" href="css/reset.css" /> -->
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Личные данные:</legend>
+                <label>
+                    Имя <input type="text" placeholder="Введите ваше имя" /
+                    required> Фамилия
+                    <input
+                        type="text"
+                        placeholder="Введите вашу фамилию"
+                        required
+                    />
+                    Дата рождения
+                    <input type="date" required />
+                </label>
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend>Контактные данные:</legend>
+                <label>
+                    Телефон:
+                    <input
+                        type="tel"
+                        placeholder="Ваш номер телефона"
+                        required
+                    />
+                    Электронная почта:
+                    <input
+                        type="email"
+                        placeholder="Ваша электронная почта"
+                        required
+                    />
+                    Ваше фото:
+                    <input type="file" />
+                </label>
+            </fieldset>
+            <br />
+            <fieldset class="fieldset1">
+                <legend>Вредные привычки:</legend>
+                <label>
+                    Вы курите?
+                    <br />
+                    Да<input type="radio" name="radio1" />
+                    <br />
+                    Нет<input type="radio" name="radio1" />
+                    <br />
+                    <br />
+                    Вы пьёте алкоголь?
+                    <br />
+                    Да<input type="radio" name="radio2" />
+                    <br />
+                    Нет<input type="radio" name="radio2" />
+                </label>
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend>Иные предпочтения:</legend>
+                <label>
+                    Любимый цвет:
+                    <select name="FormSelect">
+                        <option value="">>--Выбрать--<</option>
+                        <option value="var1">Красный</option>
+                        <option value="var2">Оранжевый</option>
+                        <option value="var3">Желтый</option>
+                        <option value="var4">Зеленый</option>
+                        <option value="var5">Голубой</option>
+                        <option value="var6">Синий</option>
+                        <option value="var7">Фиолетовый</option>
+                    </select>
+                </label>
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend>О себе:</legend>
+                <label>
+                    Кратко о себе:
+                    <textarea
+                        cols="50"
+                        rows="10"
+                        placeholder="Расскажите о себе"
+                    ></textarea>
+                </label>
+            </fieldset>
+
+            <div class="buttons">
+                <button type="submit">Отправить</button>
+                <button type="reset">Очистить</button>
+            </div>
+        </form>
+        <hr />
+        <br />
+        <form class="registration">
+            <legend>Форма регистрации:</legend>
+            <label class="reg">
+                Введите имейл:
+                <input type="email" required />
+                <br />
+                <br />
+                Введите пароль:
+                <input type="password" required />
+            </label>
+            <br />
+            <br />
+            <button type="submit">Регистрация</button>
+        </form>
+        <br />
+        <br />
+    </body>
+</html>
