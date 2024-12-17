@@ -1,0 +1,36 @@
+body {
+    background: #222231;
+    padding: 30px;
+}
+p {
+    font-size: 20px;
+}
+.block {
+    border: 3px solid red;
+    border-radius: 5px;
+    max-width: 1300px;
+    margin: 0 auto;
+    height: 800px;
+    position: relative;
+    text-align: center;
+    color: aliceblue;
+}
+
+.block__1 {
+    background-color: rgb(138, 69, 184);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 60px;
+    left: 80px;
+}
+.block__2 {
+    background-color: rgb(42, 177, 125);
+    border-radius: 10px;
+    position: fixed;
+    width: 45%;
+    min-height: 100px;
+    left: 50%;
+    bottom: 100px;
+}
