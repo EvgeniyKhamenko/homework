@@ -29,8 +29,8 @@ p {
     background-color: rgb(42, 177, 125);
     border-radius: 10px;
     position: fixed;
-    width: 45%;
     min-height: 100px;
     left: 50%;
+    right: 50px;
     bottom: 100px;
 }
