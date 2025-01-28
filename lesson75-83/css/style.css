@@ -1,0 +1,129 @@
+:root {
+    --bg-color: rgb(51, 193, 212);
+    --grid-padding: 20px;
+    --text-color: #684a11;
+    --bd-radius: 10px;
+}
+body {
+    background-color: #26122c;
+    color: #0c201a;
+    font-family: sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 10px;
+    color: var(--text-color);
+}
+
+.grid-item {
+    background-color: var(--bg-color);
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #b15454;
+}
+
+/* ==================================================================================== */
+.grid-container1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 10px;
+    padding: 10px;
+}
+
+.grid-item1 {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #2f065e;
+    border-radius: var(--bd-radius);
+}
+
+/* =========================================================================================== */
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+    padding: 10px;
+    color: var(--text-color);
+}
+
+.grid-item2 {
+    background-color: var(--bg-color);
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #b4c010;
+}
+
+.item1 {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+}
+.item2 {
+    grid-column: 3 / 4;
+    grid-row: 1 / 3;
+}
+
+.item3 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+}
+.item4 {
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+}
+
+/* ======================================================================================= */
+
+.grid-container3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "header header header"
+        "main main sidebar"
+        "footer footer footer";
+    gap: 10px;
+    padding: 10px;
+}
+.header {
+    grid-area: header;
+}
+.main {
+    grid-area: main;
+}
+.sidebar {
+    grid-area: sidebar;
+}
+.footer {
+    grid-area: footer;
+}
+
+.grid-item3 {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #55b81c;
+    border-radius: var(--bd-radius);
+}
+
+/* ===================================================================================== */
+
+.grid-container4 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 10px;
+    color: var(--text-color);
+}
+
+.grid-item4 {
+    background-color: var(--bg-color);
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #b225c5;
+}
